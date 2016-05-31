@@ -5,6 +5,7 @@ Next, see whether var1_char actually is a character by using the is.character() 
 Convert var2, a numeric, to a logical and assign it to the variable var2_log.
 Inspect the class of var2_log using class().
 Finally, try to coerce var3 to a numeric and assign the result to var3_num. Was it successful?
+----------------
 
 # Create variables var1, var2 and var3
 var1 <- TRUE
