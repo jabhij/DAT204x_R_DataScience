@@ -15,7 +15,7 @@ star_wars_matrix[c('A New Hope', 'The Empire Strikes Back'), 'US']
 star_wars_matrix[c(FALSE, TRUE, TRUE), c(TRUE, TRUE)]
 
 # Select the non-US revenue for "The Empire Strikes Back"
-# Using Index --
+# Using Indices --
 star_wars_matrix[2 , 2]
 
 # Using Names --
