@@ -9,7 +9,8 @@ Generate a summary of speed_factor: automagically, R prints the factor levels in
 speed_vector <- c('OK', 'Slow', 'Slow', 'OK', 'Fast') 
 
 # Convert speed_vector to ordered speed_factor
-speed_factor <- factor(speed_vector)
+speed_factor <- factor(speed_vector, ordered = TRUE,
+                        levels <- c('Slow', 'OK', 'Fast'))
 
 # Print speed_factor
 speed_factor
