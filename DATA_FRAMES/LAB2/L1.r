@@ -22,5 +22,5 @@ closest_planets_df <- data.frame(planets_df[1:3, 1:5])
 closest_planets_df
 
 # Last three planets: furthest_planets_df
-furthest_planets_df <- data.frame(planets_df[5:7, 1:5])
+furthest_planets_df <- data.frame(planets_df[6:8, 1:5])
 furthest_planets_df
