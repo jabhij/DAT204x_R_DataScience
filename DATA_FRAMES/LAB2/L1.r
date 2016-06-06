@@ -14,7 +14,8 @@ mars_type <- planets_df[4, 2]
 mars_type
 
 # Entire rotation column: rotation
-rotation <- planets_df['rotation']
+rotation <- planets_df[['rotation']]
+rotation
 
 # First three planets: closest_planets_df
 closest_planets_df <- data.frame(planets_df[1:3, 1:5])
