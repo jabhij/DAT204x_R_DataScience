@@ -16,5 +16,5 @@ small_planets_df
 
 # Planets that rotate slower than planet Earth: slow_planets_df
 earth_rotation <- planets_df[3, 4]
-slow_planets_df <- subset(planets_df, subset = rotation > earth_rotation)
+slow_planets_df <- subset(planets_df, subset = abs(rotation) > earth_rotation)
 slow_planets_df
