@@ -8,3 +8,15 @@ A scatterplot that plots the votes (x-axis) against the rating (y-axis) variable
 A histogram of the votes variable
 -----------------
 
+# movies is pre-loaded in your workspace
+movies
+
+# List all the graphical parameters
+par(ls(movies))
+
+# Specify the mfrow parameter
+par(mfrow = c(2,1))
+
+# Build two plots
+plot(movies$votes, movies$rating)
+hist(movies$votes)
